@@ -26,9 +26,15 @@ You need to add these scripts. You can use the `package.json` file in this repo 
 }
 ```
 
-### 3. Create and populate `.eslintrc.js`
+### 3. Create and populate `tsconfig.json`
+
+Use the `tsconfig.json` file in this repo as a reference.
+
+### 4. Create and populate `.eslintrc.js`
 
 Use the `.eslintrc.js` file in this repo as a reference.
+
+Done! Now you're ready to start running the scripts listed below.
 
 ## Yarn scripts
 
