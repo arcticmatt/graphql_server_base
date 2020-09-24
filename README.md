@@ -32,7 +32,7 @@ Use the `tsconfig.json` file in this repo as a reference.
 
 ### 4. Create and populate `.eslintrc.js`
 
-Use the `.eslintrc.js` file in this repo as a reference.
+Use the `.eslintrc.js` file in this repo as a reference. For more details about the TypeScript/eslint integration, see https://www.npmjs.com/package/@typescript-eslint/eslint-plugin.
 
 Done! Now you're ready to start running the scripts listed below.
 

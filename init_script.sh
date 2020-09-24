@@ -2,7 +2,7 @@
 
 yarn
 yarn add apollo-server graphql typescript
-yarn add -D eslint ts-node-dev 
+yarn add -D eslint ts-node-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
 mkdir src
 touch src/index.js
 touch .gitignore
