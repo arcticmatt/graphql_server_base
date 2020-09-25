@@ -34,7 +34,17 @@ Use the `tsconfig.json` file in this repo as a reference.
 
 Use the `.eslintrc.js` file in this repo as a reference. For more details about the TypeScript/eslint integration, see https://www.npmjs.com/package/@typescript-eslint/eslint-plugin.
 
-Done! Now you're ready to start running the scripts listed below.
+### 5. Modify `jest.config.js`
+
+This file gets created by `init_script.sh`. You just need to add
+
+```
+modulePathIgnorePatterns: ["./dist/"],
+```
+
+so duplicate tests in the generated directory don't run.
+
+We're finally done! Now you're ready to start running the scripts listed below.
 
 ## Yarn scripts
 
